@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, 'sans-serif';
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+    background-color: #a46464;
+}
+
+.big-text{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.right-side a{
+    color: #000;
+    margin: 0 10px;
+}
+
+.content-wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.error{
+    color: red;
+}
+
+.form-item{
+    margin-top: 15px;
+}
+
+.select-action span{
+    margin: 0 10px;
+}
+
+.select-action a {
+    color: black
+}
+
+.dialog{
+    width: 100px;
+    margin: 15px;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+.dialog a{
+    color: black;
+    text-decoration: none;
+}
+
+.message{
+    padding: 15px;
+    background-color: #c4c4c4;
+    margin: 5px;
+    width: 250px;
+}
+
+.my-message{
+    padding: 15px;
+    background-color: lightblue;
+    margin: 5px;
+    width: 250px;
+}
+
